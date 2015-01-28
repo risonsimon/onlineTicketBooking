@@ -1,0 +1,75 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+#seatsReserve{
+    display: none;
+}
+#seatsDiagram .seat{
+    border: 1px solid gray;
+    height:33px;
+    width:33px;
+    display:block;
+    margin: auto 3px 3px auto;
+}
+#seatsDiagram .seat:hover{
+    background-color: #ffff00;
+}
+#seatsDiagram .empty{
+
+    height:33px;
+    width:33px;
+    display:block;
+    margin-right: 3px;
+}
+#seatsDiagram .seatRow{
+    margin-right:5px;
+    height:33px;
+    width:33px;
+}
+#seatsDiagram .selectedSeat
+{
+    background-color: red;
+}
+#seatsDiagram .selectingSeat
+{
+    background-color: green;
+}
+.tblReserve{
+    display: none;
+}
+.tblReserve td, .tblReserve th{
+    border:1px solid black;
+    padding: 5px;
+}
+p.screen{
+    background-color: #9d9d9d;
+}
+.btn{
+    margin-bottom: 10px;
+}
+.seatDiv{
+    height:33px;
+    width:33px;
+    border: 1px solid black;
+}
+.white{
+    background-color: white;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
